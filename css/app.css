@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: 100%;
+    border: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #27323e;
+    color: #fff; /* цвет техта */
+}
+.main_block{
+    width: 100%;
+    height:100vh;  /* На всю высоту экрана(облость видимости) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}   
+.main_block header{
+    width: 1200px; 
+    margin: 0 auto; /* оцентирование блока по центру  */
+    display: flex;
+    justify-content: space-between; /* горизантально выравниение по углам  */
+    align-items: center;
+    padding-top: 20px; /* внутрений отступ */
+}
+.main_block header span{
+    font-size: 22px;
+    font-weight: 700;
+}
+.main_block header span:nth-child(2){
+    color: rgb(252,74,26);
+
+}
+.main_block header .sp{
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(108.89deg, rgb(252, 74, 26) -29.104%,rgb(247, 183, 51) 97.755%);
+    border-radius: 50%;  /* округлить блок */
+    display: flex;
+    flex-direction: column; /* направление элементов column в колонку (друг за другом) */
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+.main_block header .sp nav{
+    width: 33px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 49.5px;
+    
+}
+.main_block header .sp nav:nth-child(2){
+    width: 43px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+
+}
+.main_block .container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.main_block .container section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.main_block .container section article nav{
+    width: 134px;
+    height: 64px;
+    border-radius: 40px 40px 40px 0px;
+    background: linear-gradient(145.46deg, rgb(252, 74, 26) -36.029%,rgb(247, 183, 51) 128.44%);
+    display: flex;
+    flex-direction: column; /* направление элементов column в колонку (друг за другом) */
+    align-items: center;
+    justify-content: center;
+
+}
+.main_block .container h1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.main_block .container h2{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.main_block .container .socials{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.main_block .container .socials a{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_block .container .socials a i{
+    font-size: 22px;
+}
+
+.main_block .container .socials a:nth-child(1) i{
+    color: red;
+}
+.main_block .container .socials a:nth-child(2) i{
+    color: rgb(36, 36, 248);
+    
+}
+.main_block .container .socials a:nth-child(3) i{
+    color: rgb(25, 204, 25);
+}
+.main_block .container .download{
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    background: linear-gradient(145.46deg, rgb(252, 74, 26) -36.029%,rgb(247, 183, 51) 128.44%);
+    padding: 10px 30px;
+}
+
+.main_block section .ava{
+    width: 292px;
+    height: 292px;
+    border-radius: 50%;
+    background: url(../img/ava.webp)no-repeat center/cover;
+    
+}
+.main_block  .anchor{
+    width: 22px;
+    height: 38px;
+    border-radius: 46px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 5px
+
+    
+}
+.main_block .anchor nav{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: linear-gradient(108.89deg, rgb(252, 74, 26) -29.104%,rgb(247, 183, 51) 97.755%);
+    
+    
+    
+}
+.about_me{
+    width: 100%;
+    background-color: rgb(33,37,41);
+  
+}
+.about_me .container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.about_me .container h1{
+    text-align: center;
+}
+.about_me .container p{
+    
+
+}
+
+
+
+
+
