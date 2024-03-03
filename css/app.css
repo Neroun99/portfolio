@@ -177,19 +177,41 @@ body{
 .about_me{
     width: 100%;
     background-color: rgb(33,37,41);
-  
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .about_me .container{
     width: 1140px;
     margin: 0 auto;
 
 }
-.about_me .container h1{
+.about_me .container article h1{
     text-align: center;
-}
-.about_me .container p{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
     
+}
 
+.about_me .container article h1::before{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(108.89deg, rgb(252, 74, 26) -29.104%,rgb(247, 183, 51) 97.755%);
+    border-radius: 50%;
+    z-index: -1;
+    transform: translateX(-15px);
+    
+}
+
+.about_me .container article p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-indent: 30px;
 }
 
 
